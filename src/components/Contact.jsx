@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, Linkedin, Github } from 'lucide-react';
+import { Mail, Linkedin, Github } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -8,45 +8,35 @@ const Contact = () => {
         <h2 className="text-4xl font-bold mb-12 text-center">Get In Touch</h2>
         <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
           <div className="space-y-6">
-            <div className="flex items-center space-x-4">
-              <div className="bg-blue-600 dark:bg-blue-500 rounded-lg p-3">
+            <a href="mailto:prateekyadav1807@gmail.com" className="flex items-center space-x-4 hover:scale-105 transform transition-all duration-300 group">
+              <div className="bg-blue-600 dark:bg-blue-500 rounded-lg p-3 group-hover:bg-purple-600 transition-colors">
                 <Mail className="w-6 h-6 text-white" />
               </div>
               <div>
                 <p className="text-sm text-gray-500 dark:text-gray-400">Email</p>
-                <p className="font-medium">prateek@example.com</p>
+                <p className="font-medium">prateekyadav1807@gmail.com</p>
               </div>
-            </div>
+            </a>
             
-            <div className="flex items-center space-x-4">
-              <div className="bg-blue-600 dark:bg-blue-500 rounded-lg p-3">
-                <Phone className="w-6 h-6 text-white" />
-              </div>
-              <div>
-                <p className="text-sm text-gray-500 dark:text-gray-400">Phone</p>
-                <p className="font-medium">+91 XXXXX XXXXX</p>
-              </div>
-            </div>
-            
-            <div className="flex items-center space-x-4">
-              <div className="bg-blue-600 dark:bg-blue-500 rounded-lg p-3">
+            <a href="https://www.linkedin.com/in/prateekyadav18/" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-4 hover:scale-105 transform transition-all duration-300 group">
+              <div className="bg-blue-600 dark:bg-blue-500 rounded-lg p-3 group-hover:bg-purple-600 transition-colors">
                 <Linkedin className="w-6 h-6 text-white" />
               </div>
               <div>
                 <p className="text-sm text-gray-500 dark:text-gray-400">LinkedIn</p>
-                <p className="font-medium">linkedin.com/in/prateekyadav</p>
+                <p className="font-medium">linkedin.com/in/prateekyadav18</p>
               </div>
-            </div>
+            </a>
             
-            <div className="flex items-center space-x-4">
-              <div className="bg-blue-600 dark:bg-blue-500 rounded-lg p-3">
+            <a href="https://github.com/prateekyadav1807" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-4 hover:scale-105 transform transition-all duration-300 group">
+              <div className="bg-blue-600 dark:bg-blue-500 rounded-lg p-3 group-hover:bg-purple-600 transition-colors">
                 <Github className="w-6 h-6 text-white" />
               </div>
               <div>
                 <p className="text-sm text-gray-500 dark:text-gray-400">GitHub</p>
-                <p className="font-medium">github.com/prateekyadav</p>
+                <p className="font-medium">github.com/prateekyadav1807</p>
               </div>
-            </div>
+            </a>
           </div>
           
           <div className="bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-700 dark:to-gray-600 rounded-xl p-8">

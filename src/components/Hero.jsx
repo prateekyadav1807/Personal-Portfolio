@@ -47,8 +47,9 @@ const Hero = () => {
                 View Projects
               </button>
               <a
-                href="/resume.pdf"
-                download
+                href="https://drive.google.com/file/d/1Pq8EJAu703E_waH3eh4McMFzHrY3O_hg/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-8 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-full font-medium hover:shadow-2xl hover:from-purple-700 hover:to-pink-700 transform hover:scale-105 transition-all duration-300 flex items-center gap-2"
               >
                 <Download className="w-5 h-5" />
