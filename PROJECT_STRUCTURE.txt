@@ -1,0 +1,136 @@
+PRATEEK YADAV - PORTFOLIO WEBSITE
+Complete Vite React Project Structure
+
+================================================================================
+ROOT LEVEL FILES
+================================================================================
+
+1. package.json
+   Location: /package.json
+   Description: Project dependencies and scripts
+   
+2. vite.config.js
+   Location: /vite.config.js
+   Description: Vite configuration file
+   
+3. tailwind.config.js
+   Location: /tailwind.config.js
+   Description: Tailwind CSS configuration with dark mode support
+   
+4. postcss.config.js
+   Location: /postcss.config.js
+   Description: PostCSS configuration for Tailwind
+   
+5. index.html
+   Location: /index.html
+   Description: Main HTML file, entry point for the app
+   
+6. .gitignore
+   Location: /.gitignore
+   Description: Git ignore file for node_modules and build files
+   
+7. README.md
+   Location: /README.md
+   Description: Project documentation and setup instructions
+
+================================================================================
+SRC DIRECTORY
+================================================================================
+
+8. main.jsx
+   Location: /src/main.jsx
+   Description: React entry point, renders App component
+   
+9. index.css
+   Location: /src/index.css
+   Description: Global CSS with Tailwind imports
+   
+10. App.jsx
+    Location: /src/App.jsx
+    Description: Main app component, manages dark mode and imports all sections
+
+================================================================================
+COMPONENTS DIRECTORY
+================================================================================
+
+11. Navbar.jsx
+    Location: /src/components/Navbar.jsx
+    Description: Navigation bar with dark mode toggle and mobile menu
+    
+12. Hero.jsx
+    Location: /src/components/Hero.jsx
+    Description: Hero section with introduction and CTA buttons
+    
+13. About.jsx
+    Location: /src/components/About.jsx
+    Description: About section with bio and education details
+    
+14. Skills.jsx
+    Location: /src/components/Skills.jsx
+    Description: Skills section organized by categories
+    
+15. Experience.jsx
+    Location: /src/components/Experience.jsx
+    Description: Work experience section (Codec Technology internship)
+    
+16. Projects.jsx
+    Location: /src/components/Projects.jsx
+    Description: Portfolio projects showcase with tech stack
+    
+17. Services.jsx
+    Location: /src/components/Services.jsx
+    Description: Services offered section
+    
+18. Certifications.jsx
+    Location: /src/components/Certifications.jsx
+    Description: Certifications and achievements section
+    
+19. Contact.jsx
+    Location: /src/components/Contact.jsx
+    Description: Contact form and social media links
+    
+20. Footer.jsx
+    Location: /src/components/Footer.jsx
+    Description: Footer with copyright information
+
+================================================================================
+INSTALLATION INSTRUCTIONS
+================================================================================
+
+1. Create a new folder named "prateek-portfolio"
+2. Place all root level files in this folder
+3. Create a "src" folder inside
+4. Place main.jsx and index.css in the src folder
+5. Create a "components" folder inside the src folder
+6. Place all component files in src/components folder
+
+Final structure:
+prateek-portfolio/
+├── .gitignore
+├── README.md
+├── index.html
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+├── vite.config.js
+└── src/
+    ├── App.jsx
+    ├── index.css
+    ├── main.jsx
+    └── components/
+        ├── About.jsx
+        ├── Certifications.jsx
+        ├── Contact.jsx
+        ├── Experience.jsx
+        ├── Footer.jsx
+        ├── Hero.jsx
+        ├── Navbar.jsx
+        ├── Projects.jsx
+        ├── Services.jsx
+        └── Skills.jsx
+
+Then run:
+- npm install
+- npm run dev
+
+================================================================================
